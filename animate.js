@@ -23,35 +23,6 @@ function power3(timeFractoin) {
     return Math.pow(timeFraction, 3);
 }
 
-function power4(timeFraction) {
-    return Math.pow(timeFraction, 4);
-}
-
-function power5(timeFraction) {
-    return Math.pow(timeFraction, 5);
-}
-
-function power6(timeFraction) {
-    return Math.pow(timeFraction, 6);
-}
-
-function power8(timeFraction) {
-    return Math.pow(timeFraction, 8);
-}
-
-function power9(timeFraction) {
-    return Math.pow(timeFraction, 9);
-}
-
-
-function power10(timeFraction) {
-    return Math.pow(timeFraction, 10);
-}
-
-
-
-
-
 function OnePointFiveBack(timeFraction) {
     var x = 1.5;
     return Math.pow(timeFraction, 2) * ((x + 1) * timeFraction - x);
@@ -61,9 +32,6 @@ function TwoBack(timeFraction){
     var x = 2;
     return Math.pow(timeFraction, 2) * ((x + 1) * timeFraction - x);
 }
-
-
-
 
 function bounce(timeFraction) {
     for(let a = 0, b = 1, result; 1; a+=b, b/=2) {
